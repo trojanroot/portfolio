@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aryan Thapa's personal portfolio showcasing IT skills and development projects.">
+    <title>Aryan Thapa | Portfolio</title>
+
+    <link rel="stylesheet" href="/portfolio/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">AT<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content reveal">
+                <p class="eyebrow"><span class="status-dot"></span> Welcome to my portfolio</p>
+
+                <h1>Hi, I'm <span class="gradient-text">Aryan Thapa</span></h1>
+
+                <h2>IT Student & Aspiring Web Developer</h2>
+
+                <p class="hero-description">
+                    I enjoy learning technology, building web pages, and turning
+                    creative ideas into simple and useful digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="hero-socials">
+                    <span>Based in Kathmandu, Nepal</span>
+                    <span class="social-separator">•</span>
+                    <a href="https://github.com/trojanroot"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+
+                <div class="profile-card">
+                    <div class="card-top">
+                        <span class="window-dot purple"></span>
+                        <span class="window-dot"></span>
+                        <span class="window-dot"></span>
+                        <span class="card-label">developer.profile</span>
+                    </div>
+
+                    <div class="avatar">AT<span>.</span></div>
+                    <h3>Aryan Thapa</h3>
+                    <p class="muted">Aspiring Web Developer</p>
+
+                    <div class="profile-divider"></div>
+
+                    <div class="profile-detail">
+                        <span>Education</span>
+                        <strong>Bachelor's in IT</strong>
+                    </div>
+                    <div class="profile-detail">
+                        <span>Focus</span>
+                        <strong>Web Development</strong>
+                    </div>
+                    <div class="profile-detail">
+                        <span>Location</span>
+                        <strong>Kathmandu, Nepal</strong>
+                    </div>
+
+                    <div class="code-decoration">
+                        <span>&lt;</span> Learn. Build. Improve. <span>/&gt;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section container" id="about">
+            <div class="section-heading reveal">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p>A little about my journey into technology.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text panel reveal">
+                    <h3>Learning Today, Building Tomorrow.</h3>
+                    <p>
+                        I'm Aryan Thapa, an IT student from Kathmandu, Nepal,
+                        interested in web development and software development.
+                    </p>
+                    <p>
+                        I have basic knowledge of HTML, CSS, C, and C++.
+                        I enjoy practicing by building projects and improving
+                        my programming skills step by step.
+                    </p>
+                    <p>
+                        My goal is to grow as a developer, gain practical
+                        experience, and create useful digital solutions.
+                    </p>
+                </div>
+
+                <div class="about-facts reveal">
+                    <div class="fact-card panel">
+                        <span class="fact-icon">⌘</span>
+                        <h3>Web Development</h3>
+                        <p>Creating and styling web pages</p>
+                    </div>
+                    <div class="fact-card panel">
+                        <span class="fact-icon">{"{}"}</span>
+                        <h3>Programming</h3>
+                        <p>Learning C and C++ fundamentals</p>
+                    </div>
+                    <div class="fact-card panel">
+                        <span class="fact-icon">✦</span>
+                        <h3>Continuous Learning</h3>
+                        <p>Practicing through personal projects</p>
+                    </div>
+                    <div class="fact-card panel">
+                        <span class="fact-icon">◈</span>
+                        <h3>Problem Solving</h3>
+                        <p>Learning by building and debugging</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section-dark" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I'M LEARNING</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Technologies and languages I'm developing my skills in.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card panel reveal">
+                        <div class="skill-icon html-icon">5</div>
+                        <h3>HTML</h3>
+                        <p>Page structure and semantic markup</p>
+                        <span class="skill-level">Basic</span>
+                    </article>
+
+                    <article class="skill-card panel reveal">
+                        <div class="skill-icon css-icon">✳</div>
+                        <h3>CSS</h3>
+                        <p>Layouts, styling, and responsive pages</p>
+                        <span class="skill-level">Basic</span>
+                    </article>
+
+                    <article class="skill-card panel reveal">
+                        <div class="skill-icon c-icon">C</div>
+                        <h3>C</h3>
+                        <p>Programming fundamentals</p>
+                        <span class="skill-level">Basic</span>
+                    </article>
+
+                    <article class="skill-card panel reveal">
+                        <div class="skill-icon cpp-icon">C++</div>
+                        <h3>C++</h3>
+                        <p>Logic and console-based projects</p>
+                        <span class="skill-level">Basic</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section container" id="projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+                <h2>My <span class="gradient-text">Projects</span></h2>
+                <p>Practice projects that help me develop my skills.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card panel reveal">
+                    <div class="project-preview preview-one">
+                        <span class="preview-symbol">{ }</span>
+                        <span class="preview-caption">C++ / Console</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">PROGRAMMING</span>
+                        <h3>Student Grade Management System</h3>
+                        <p>
+                            A C++ practice project for managing student details,
+                            marks, percentages, averages, and grades.
+                        </p>
+                        <div class="tags">
+                            <span>C++</span>
+                            <span>Logic</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card panel reveal">
+                    <div class="project-preview preview-two">
+                        <span class="preview-symbol">▤</span>
+                        <span class="preview-caption">C++ / Console</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">PROGRAMMING</span>
+                        <h3>Library Management System</h3>
+                        <p>
+                            A library management project idea for practicing
+                            programming logic and organizing library records.
+                        </p>
+                        <div class="tags">
+                            <span>C++</span>
+                            <span>Data Management</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card panel reveal">
+                    <div class="project-preview preview-three">
+                        <span class="preview-symbol">⌘</span>
+                        <span class="preview-caption">HTML / CSS / React</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">WEB DEVELOPMENT</span>
+                        <h3>Job Portal Website</h3>
+                        <p>
+                            A job portal interface with pages for browsing
+                            opportunities, searching jobs, and user sign-in.
+                        </p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section container" id="contact">
+            <div class="contact-box reveal">
+                <div class="contact-orb"></div>
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Have a project <span class="gradient-text">in mind?</span></h2>
+                <p>
+                    I'm working on improving my skills and exploring new
+                    opportunities to learn and collaborate.
+                </p>
+
+                <a class="btn btn-primary"
+                   href="https://github.com/trojanroot"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit My GitHub ↗
+                </a>
+
+                <p class="contact-note">
+                    Replace or add your email and other social links when ready.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">AT<span>.</span></a>
+            <p>Designed and built by Aryan Thapa.</p>
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> Aryan Thapa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
